@@ -1,0 +1,11 @@
+<md-content>
+      <md-toolbar color="warn">
+          <span><a md-button [routerLink]=" ['./home'] ">{{ name }}</a></span>
+      </md-toolbar>
+
+      <md-progress-bar mode="indeterminate" color="primary" *ngIf="loading"></md-progress-bar>
+    
+      <main>
+        <router-outlet></router-outlet>
+      </main>
+</md-content>

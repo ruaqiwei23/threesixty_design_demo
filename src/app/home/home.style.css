@@ -1,0 +1,9 @@
+/*styles for home content only*/
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+.card-container md-card{
+    margin: 5px;
+    flex: 1
+}
