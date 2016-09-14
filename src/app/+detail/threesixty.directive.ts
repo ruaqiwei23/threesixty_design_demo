@@ -17,8 +17,8 @@ export class threeSixty implements OnInit{
             progress: '.spinner', // selector to show the loading progress
             imagePath: './assets/img/3D/original/', // path of the image assets
             ext: '.jpg', // extention for the assets
-            height: 1200,
-            width: 900,
+            height: 500,
+            width: 500,
             navigation: false,
             disableSpin: true, // Default false
             responsive: true
