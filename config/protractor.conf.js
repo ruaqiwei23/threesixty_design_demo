@@ -1,5 +1,5 @@
 /**
- * @author: @AngularClass
+ 
  */
 
 require('ts-node/register');

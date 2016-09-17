@@ -1,5 +1,5 @@
 /**
- * @author: @AngularClass
+ 
  */
 
 // look in ./config for protractor.conf.js

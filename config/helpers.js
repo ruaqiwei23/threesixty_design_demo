@@ -1,5 +1,5 @@
 /**
- * @author: @AngularClass
+ 
  */
 var path = require('path');
 

@@ -1,5 +1,5 @@
 /**
- * @author: @AngularClass
+ 
  */
 
 // Look in ./config folder for webpack.dev.js
