@@ -1,8 +1,32 @@
-.detail-container {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+.detail-container{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
 }
-.threesixty {
-    margin-bottom: 20px;
+.threesixty{
+  margin-bottom: 20px;
+}
+.full-width{
+  display: block;
+}
+.design-area{
+  position: absolute;
+  left:50%;
+  top: 25%;
+  width: 30%;
+  margin-left: -15%;
+  height: 75%;
+}
+.design-area-item{
+  height: 8%;
+  margin-bottom: 15%;
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#number-area{
+  height: 40%;
+  font-size: 20vw
 }

@@ -1,4 +1,6 @@
 # threesixty_design_demo
+Developed based on Angular2 with Material Design.
+Used angular2-webpack-starter by AgularClass as boilerplate.
 ## Running the app
 After you have installed all dependencies you can now run the app. Run `npm run server` to start a local server using `webpack-dev-server` which will watch, build (in-memory), and reload for you. The port will be displayed to you as `http://0.0.0.0:3000` (or if you prefer IPv6, if you're using `express` server, then it's `http://[::1]:3000/`).
 

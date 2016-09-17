@@ -8,6 +8,8 @@ export class threeSixty implements OnInit{
 
   }
   public ngOnInit() {
+    let imgPath;
+    imgPath = './assets/img/3D/original/';
     $(this.el.nativeElement).ThreeSixty({
             totalFrames: 16, // Tota no. of image you have for 360 slider
             endFrame: 16, // end frame for the auto spin animation
@@ -15,7 +17,7 @@ export class threeSixty implements OnInit{
             framerate: 8,
             imgList: '.threesixty_images', // selector for image list
             progress: '.spinner', // selector to show the loading progress
-            imagePath: './assets/img/3D/original/', // path of the image assets
+            imagePath: imgPath, // path of the image assets
             ext: '.jpg', // extention for the assets
             height: 500,
             width: 500,

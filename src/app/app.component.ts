@@ -20,7 +20,7 @@ import { AppState } from './app.service';
 export class App {
   loading = false;
   name = '360 Design Prototype';
-  url = '#';
+  url = '';
 
   constructor(
     public appState: AppState) {
