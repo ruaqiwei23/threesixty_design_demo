@@ -1,6 +1,5 @@
 import { Component,ViewEncapsulation } from '@angular/core';
 import { threeSixty } from './threesixty.directive';
-import {Location} from '@angular/common';
 
 @Component({
   selector: 'preview',
@@ -10,9 +9,6 @@ import {Location} from '@angular/common';
   directives: [threeSixty],
 })
 export class Preview {
-  constructor(private _location: Location) {
-  }
-  backClicked() {
-    this._location.back();
+  constructor() {
   }
 }

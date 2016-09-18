@@ -3,6 +3,9 @@
   display: flex;
   justify-content: center;
 }
+detail index .detail-container{
+  flex-direction: column;
+}
 .threesixty{
   margin-bottom: 20px;
 }
@@ -25,8 +28,13 @@
   justify-content: center;
   align-items: center;
   color: #fff;
+  font-family: 'ChangaOne'
 }
 #number-area{
   height: 40%;
-  font-size: 20vw
+  font-size: 20vw;
+  font-family: fantasy;
+}
+.threesixty_images{
+  cursor: ew-resize
 }

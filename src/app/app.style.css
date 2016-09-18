@@ -32,3 +32,28 @@ md-content{
 h1,h2,h3,h4,h5,h6{
   color:#fff;
 }
+@font-face{
+  font-family: "ChangaOne";
+  src: url("/assets/fonts/ChangaOne-Regular.ttf");
+  font-style: normal
+}
+md-content{
+  height: auto;
+  min-height: 100%;
+  position: relative;
+}
+md-content main{
+  padding-bottom: 80px;
+}
+footer{
+    background: white;
+    width:100%;
+    height:60px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    line-height: 60px;
+}
+a{
+  text-decoration: none;
+}

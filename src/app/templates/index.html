@@ -1,6 +1,6 @@
 <md-content>
       <md-toolbar color="warn">
-          <span><a md-button [routerLink]=" ['./home'] ">{{ name }}</a></span>
+          <span><a md-button (click)="backClicked()">{{ name }}</a></span>
       </md-toolbar>
 
       <md-progress-bar mode="indeterminate" color="primary" *ngIf="loading"></md-progress-bar>
@@ -8,4 +8,7 @@
       <main>
         <router-outlet></router-outlet>
       </main>
+      <footer>
+        <span>Copyright 2016 <a [href]="url" target="_blank">Cimpress China</a></span>
+      </footer>
 </md-content>
