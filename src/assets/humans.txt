@@ -3,13 +3,8 @@
 
 # TEAM
 
-  <name> -- <role> -- <twitter>
+Ryan Ruan -- Sr.Front-end -- rruan@cimpress.com
 
-# THANKS
-
-  <name>
-  PatrickJS -- @gdi2290
-  AngularClass -- @AngularClass
 
 # TECHNOLOGY COLOPHON
 
